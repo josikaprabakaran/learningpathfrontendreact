@@ -1,0 +1,364 @@
+/* .App {
+  background-color:black;
+ }  */
+
+ /* .coursecontent
+ {
+   text-align: left;
+ } */
+ h4{
+  
+   color:black;
+   font-weight: bolder;
+ }
+ h3{
+  
+    color:white;
+ }
+ .about_course{
+ height:700;
+ border-radius: 700%;
+ overflow:auto;
+ }
+ 
+ 
+ .rating {
+   unicode-bidi: bidi-override;
+   direction: rtl;
+ }
+ .rating > span {
+   display: inline-block;
+   position: relative;
+   width: 1.1em;
+ }
+ .rating > span:hover:before,
+ .rating > span:hover ~ span:before {
+    content: "\2605";
+    position: absolute;
+ }
+ 
+ 
+ .App-header {
+   background-color: black;
+   min-height: 100vh;
+   font-size: calc(10px + 2vmin);
+   
+ }
+ .course
+ {
+   padding-top: 150px;
+ 
+ }
+ .technology
+ {
+   padding-top: 30px;
+   padding-bottom:20px;
+ }
+ 
+ /* button
+ {
+   padding-bottom: 30px;
+ } */
+ /* accordian css */
+ 
+ 
+ 
+ 
+ .demo{ background:#39013b!important; }
+ a:hover,a:focus{
+     text-decoration: none;
+     outline: none;
+ }
+ /* #accordion .panel{
+     border: none;
+     border-radius: 5px;
+     box-shadow: none;
+     margin-bottom: 10px;
+     background: black;
+ } */
+ .course-card
+ {
+    background-color: rgb(37, 2, 35);
+    border-radius: 10px;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    
+    transition: transform 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+ }
+ .coursebody
+ {
+  
+ color:rgb(37, 2, 35);
+ font-size: 30px;
+ padding: 20px;
+  font-weight: bolder;
+
+ }
+ .course-card:hover
+ {
+   transform: scale(1.1);
+   background-color: rgba(0,0,0,0.4);
+ }
+ .course-card:hover
+  {
+    transform: scale(1.1);
+    background-color: rgba(0,0,0,0.4);
+  }
+
+ 
+ /* header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   box-sizing: border-box;
+ }
+ 
+ header {
+   background-color: indigo;
+   border-radius: 0px;
+   padding: 20px;
+   height: 90px;
+   display: flex;
+   align-items: center;
+ }
+ 
+ header a {
+   color: white;
+   text-decoration: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ header a:hover {
+   color: lightgray;
+ }
+ 
+ header a.active {
+   color: black;
+ }
+ 
+ 
+ .nav-link {
+   color: white;
+   text-decoration: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: color 0.3s;
+   
+ }
+ 
+ .nav-link:hover {
+   color: rgb(188, 151, 214);
+ }
+ .nav-link:active { 
+   color:  rgb(188, 151, 214);
+ }
+ 
+ .btn-login, .btn-signup {
+   background-color: lightgray;
+   border-radius: 20px;
+   padding: 5px 30px;
+   border: none;
+   color: black;
+   text-decoration: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: background-color 0.3s;
+ }
+ .App {
+
+text-align: center;
+
+}
+
+/* styles.css */
+
+.buttonguide {
+
+  background-color: #4B0082; /* Replace with the desired color */
+  
+  color:#FFFFFF
+  
+  ; /* Replace with the desired text color */
+  
+  padding: 10px 20px;
+  
+  border: none;
+  
+  border-radius: 4px;
+  
+  cursor: pointer;
+  
+  }
+  
+  
+  
+  .buttonguide:hover {
+  
+  background-color: #ff3c00; /* Replace with the desired color on hover */
+  
+  }
+  
+  /* styles.css */
+  
+  .colorful-table {
+  
+  width: 700px; /* Set the desired width value */
+  
+  border-collapse: collapse;
+  
+  color: #4b0082;
+  
+  }
+  
+  
+  
+  .colorful-table th,
+  
+  .colorful-table td {
+  
+  padding: 10px;
+  
+  text-align: center;
+  
+  border: 1px solid #4b0082;
+  
+  color: #4b0082;
+  
+  }
+  
+  
+  
+  .colorful-table th {
+  
+  background-color: #ff6b6b;
+  
+  color: #ffffff;
+  
+  }
+  
+  
+  
+  .colorful-table td {
+  
+  background-color: #fff;
+  
+  }
+  
+  
+  
+  .colorful-link {
+  
+  color: #4b0082;
+  
+  text-decoration: none;
+  
+  font-weight: bold;
+  
+  }
+  
+  
+  
+  .colorful-link:hover {
+  
+  text-decoration: underline;
+  
+  }
+  
+  
+  
+  .colorful-link {
+  
+  color: #4b0082;
+  
+  text-decoration: none;
+  
+  font-weight: bold;
+  
+  }
+  
+  
+  
+  .colorful-link:hover {
+  
+  text-decoration: underline;
+  
+  }
+ 
+  .back-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color:  #390642;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .back-link:hover {
+    background-color: rgb(0, 0, 0);
+    color: lightgray;
+    transform: translateY(-50%) scale(1.2);
+  }
+  
+
+  .back-buttonguide {
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%) ;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .back-buttonguide:hover {
+    
+    background-color: #390642;
+    color: white;
+    border: black;
+    transition: all 0.3s ease;
+    transform: translateY(-50%) scale(1.1);
+  }
+    
+  
+
+/*background-color: gray;
+  transition: all 0.2s ease-in-out;
+  transform: translateY(-50%) scale(1.1);*/
+  /* .center1{
+    text-align: right;
+    display: block;
+    justify-content: right;
+    align-items: right;
+    margin: auto;
+    width: 100%;
+  } */
+ 
+
+  
